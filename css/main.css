@@ -1,0 +1,29 @@
+.back-top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 5px;
+    bottom: 20%;
+    z-index: 999999;
+    background: #777;
+    display: none;
+}
+
+.top-top {
+    color: white;
+    font-weight: bolder;
+    line-height: 50px;
+    text-align: center;
+}
+
+.back-top :hover {
+    cursor: pointer;
+    background: #222;
+}
+
+.c {
+    float: right;
+    display: inline-block;
+    position: relative;
+    margin-top: -480px;
+}
